@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - "src/main/resources/release.json"
+  workflow_dispatch:
+  gollum:
 
 jobs:
   build:
